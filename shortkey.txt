@@ -1,0 +1,9 @@
+--html
+CTRL+V = Comment html
+h$*6 = h1-h6
+>> p>h${This is h$}*6 <<
+
+OTHER //https://docs.emmet.io/abbreviations/syntax/
+
+
+--vscode
