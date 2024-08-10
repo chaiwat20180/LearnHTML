@@ -14,14 +14,18 @@
         *{
             font-family: "Open Sans", sans-serif;
         }
+        div{
+            border: 1px solid red;
+        }
+        span{
+            border: 1px solid blue;
+        }
+        form > div.del-border , form > div.del-border > span{
+            border: none;
+        }
     </style>
 </head>
 <body>
-    <h1>Basic HTML</h1>
-    <a href="https://www.w3schools.com/">w3school</a> 
-    <p>Normal Click</p>
-    <a href="https://www.w3schools.com/" target="_blank">w3school</a> 
-    <p>Click with new tab -> target="_blank" </p>
     <!--This is comment-->
     <p>Command comment use this -> <textarea rows="1" cols="30"> <!--This is Comment--> </textarea></p>
     <hr>
@@ -86,6 +90,119 @@
     <hr>
     <h1>Table</h1>
     <!--1:55:43-->
+    <h3><u>รายการสินค้า</u></h3>
+    <table border="1" bgcolor="lightblue" width="50%">
+        <thead bgcolor="yellow">
+            <th>รายการสินค้า</th>
+            <th>ชื่อสินค้า</th>
+            <th>ราคาสินค้า</th>
+            <th>ซื้อสินค้า</th>
+        </thead>
+        <tbody>
+            <tr bgcolor="white">
+                <td>No.1</td>
+                <td>แมว</td>
+                <td>100.0</td>
+                <td><a href="#">Buy</a></td>
+            </tr>
+            <tr>
+                 <td  colspan="3" bgcolor="orange" > <u>colspan</u> , <u>rowspan</u> , <u>cellpadding cellspacing </u> </td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+        <h1>div,span</h1>
+        <div style="color:red">
+            <h1>CSS</h1>
+            <p>div 1</p>
+        </div>
+        <div style="color:blue">
+            <h1>CSS</h1>
+            <p>div 2</p>
+        </div>
+        <span>span 1</span>
+        <span>span 2</span>
+        <span>span 3</span>
+        <hr>   
+        <form>
+            <div class="del-border">
+                <label for="Number">1.</label>
+                <input type="checkbox" name="Hello?" id="" required> 
+                <label for="Type:checkbox">Type: Checkbox</label>
+            </div>  
+            <div class="del-border">
+                <label for="Number">2.</label>
+                <label for="TextInput">Type:Text </label>
+                <input type="text" name="TextInput" id="" placeholder="Type: Text" required>
+            </div> 
+            <div class="del-border">
+                <label for="Number">3.</label>
+                <input type="radio" name="radioInput" id="" required>
+                <label for="radioInput">Type: Radio</label>
+            </div>
+            <div class="del-border">
+                <label for="Number">4.</label>
+                <label for="EmailInput">Type: Email </label>
+                <input type="email" name="EmailInput" id="" placeholder="Type: E-mail" required>
+            </div>
+            <div class="del-border">
+                <label for="Number">5.</label>
+                <label for="EmailInput">Type: Password </label>
+                <input type="password" name="PasswordInput" id="" placeholder="Type: Password" required>
+            </div>
+            <div class="del-border">
+                <label for="Number">6.</label>
+                <label for="textarea">Type: Textarea </label>
+                <textarea name="TextareaInput" id="" rows="1" placeholder="Type: Textarea" required></textarea>
+            </div>
+            <div class="del-border">
+                <label for="Number">7.</label>
+                <label for="NumberInput">Type: Number </label>
+                <input type="number" name="NumberInput" id="" placeholder="Type: Number" min="1" max="10" required>
+            </div>
+            <div class="del-border">
+                <label for="Date">8.</label>
+                <label for="DateInput">Type: Date </label>
+                <input type="date" name="DateInput" id="" required>
+            </div>
+            <div class="del-border">
+                <label for="week">8.</label>
+                <label for="weekInput">Type: week </label>
+                <input type="week" name="weekInput" id="" required>
+            </div>
+            <div class="del-border">
+                <label for="color">9.</label>
+                <label for="colorInput">Type: color </label>
+                <input type="color" name="colorInput" id="" required>
+            </div>
+            <div class="del-border">
+                <label for="range">10.</label>
+                <label for="rangeInput">Type: color </label>
+                <input type="range" name="rangeInput" id="" value="1" required>
+            </div>
+            <div class="del-border">
+                <label for="range">11.</label>
+                <label for="rangeInput">Type: select </label>
+                <select name="" id="" required>
+                    <option value="School 1" selected >Test 1</option>
+                    <option value="School 2">Test 2</option>
+                    <option value="School 3">Test 3</option>
+                </select>
+            </div>
+            <div class="del-border">
+                <label for="file">10.</label>
+                <label for="fileInput">Type: File </label>
+                <input type="file" name="fileInput" id="" required>
+            </div>
+            <div class="del-border">
+                <label for="url">10.</label>
+                <label for="urlInput">Type: Url </label>
+                <input type="url" name="urlInput" id="" placeholder="Type: URL" required>
+            </div>
+                <input type="submit" value="submit">
+        </form>
+        <hr>
+        <!-- 3:42:13 -->
 </body>
 </html>
 

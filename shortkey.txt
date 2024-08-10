@@ -1,7 +1,8 @@
 --html
-CTRL+V = Comment html
+CTRL+/ = Comment html
 h$*6 = h1-h6
 >> p>h${This is h$}*6 <<
+select>option*3{Test $}[value="School $"]
 
 OTHER //https://docs.emmet.io/abbreviations/syntax/
 
