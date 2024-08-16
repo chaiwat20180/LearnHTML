@@ -4,6 +4,12 @@ h$*6 = h1-h6
 >> p>h${This is h$}*6 <<
 select>option*3{Test $}[value="School $"]
 
+a[href="Your Links"]
+
+id
+div#yourID
+div.YourClass
+
 OTHER //https://docs.emmet.io/abbreviations/syntax/
 
 
