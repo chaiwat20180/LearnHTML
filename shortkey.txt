@@ -14,3 +14,4 @@ OTHER //https://docs.emmet.io/abbreviations/syntax/
 
 
 --vscode
+CTRL+B -> explan sidebar menu

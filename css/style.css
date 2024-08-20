@@ -1,0 +1,8 @@
+.test{
+    background-color: blue;
+    height: 400px;
+    width: 400px;
+    border-width: 10px;
+    border-style: groove;
+    border-color: tomato;
+}
