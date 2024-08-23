@@ -1,8 +1,51 @@
-.test{
-    background-color: blue;
-    height: 400px;
-    width: 400px;
-    border-width: 10px;
-    border-style: groove;
-    border-color: tomato;
+.box{
+    color: white;
+    background: rgb(125, 125, 206);
+    height: 50px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
 }
+.divtest{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background-color: lightblue;
+    padding: 10px;
+    border: 1px solid black;
+}
+.contentbox{
+    box-sizing: content-box;
+}
+.borderbox{
+    box-sizing: border-box;
+}
+.inline-element{
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+}
+.block-element{
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+    display: block;
+}
+.inline-block-element{
+    border: 2px solid blue;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+
+
